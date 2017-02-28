@@ -1,8 +1,10 @@
 <!DOCTYPE html> 
 <html>
 	<head> <meta charset="utf-8">
-		<link rel="stylesheet" href="style_cv.css">
+		<link rel="stylesheet" href="style_cv ( c_est le fichier css).css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="cv.js"></script>  <!-- ici je lui dit que je veux qu'il importe les fonctions que j'ai mis dans le fichier cv.js (vu qu'il se trouve dans le moment dossier que ce fichier , je n'ai qu'a mettre son nom => 
+		je n'ai plus à écrire le script directement dans cette page mais à l'écrire directement dans le fichier cv;js) -->
 	</head> <!--  l'UTF-8, qui permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe. -->
 	<body>
 		<h1>CV</h1>
@@ -31,18 +33,21 @@
 		<button style="font-size: 50%;" onclick="alternatif('F');">alternatif</button>
 		<div id="EP"> 
 		<h2> EXPERIENCE PROFESSIONNELLE </h2>
-		<p><b> Mars 2016-août 2016 : </b> stage sur l’utilisation d’une orthèse pneumatique contrôlé via une ICM dans le cadre de la rééducation de patients suite à un AVC. <br> 
+		<p><b> 
+		<div class ="h3">
+		Mars 2016-août 2016 : </b> stage sur l’utilisation d’une orthèse pneumatique contrôlé via une ICM dans le cadre de la rééducation de patients suite à un AVC. <br> 
 		<b> Octobre 2015- fevrier 2016 : </b> stage sur la réalisation de lignes et de réseaux par lithographie par interférence laser <br> 
 		<b> Mars 2015- Juillet 2015 :</b> stage sur l’acoustique non linéaire <br> 
 		<b>Décembre 2014- mars 2015 :</b> projet portant sur la mise en place un plan d’action sur l’élaboration d’une interface complète analysant la quantité de mouvements des membres droit et gauche d’un patient suite à un AVC dans le cadre d’une médecine personnalisée.<br>
 		<b>Janvier 2014 - Juin 2014:</b> stage sur les interactions des oligomères Ab avec les récepteurs nicotiniques dans la Maladie d’Alzheimer (mémoire + soutenance).<br>
 		<b>Avril 2012 - Juin 2013: </b> stage sur les cellules de Purkinje (mémoire).<br> <b>Juin 2012 :</b> stage sur le brunissement enzymatique de la banane (mémoire).</p> 
+		</div>
 		<button style="font-size: 50%;" onclick="cacher('EP');">cacher</button>  
 		</div>
 		<button style="font-size: 50%;" onclick="afficher('EP');">afficher</button>
 		<button style="font-size: 50%;" onclick="alternatif('EP');">alternatif</button>
 		<div id="C"> 
-		<h2> COMPETENCES </h2>
+		<h2 class="competence"> COMPETENCES </h2>
 		<p> Utilisation du microscope confocal<br> spinning disc<br> Technique de dissociation et de mise en culture de neurones hippocampiques <br>
 		Technique de dislocation et de dissection du cerveau de modèles murins<br> Western-Blot<br> Southern-Blot<br> Immunomarquage <br> Approfondissement des connaissances dans les domaines suivants <br>
 		-capteurs<br> - modélisation<br> - robotique médicale<br> - neuroprothèses<p> 
@@ -70,6 +75,10 @@
 <button style="font-size: 50%;" onclick="cacher('L');">cacher</button>  
 		</div>
 		<button style="font-size: 50%;" onclick="afficher('L');">afficher</button>
-		<button style="font-size: 50%;" onclick="afficher('L');">afficher</button>
+		<button style="font-size: 50%;" onclick="afficher('L');">afficher</button><br>
+		<label>Votre pseudo</label> : <input type="text" name="nom" /><br>
+		<label>Email</label> : <input type="text" name="Email" /><br>
+		<label>Téléphone</label> : <input type="text" name="telephone" /><br>
+		<label>Message</label> : <input type="text" name="message" /><br>
 </body>
 </html>
