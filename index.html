@@ -3,23 +3,11 @@
 	<head> <meta charset="utf-8">
 		<link rel="stylesheet" href="style_cv.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script language="javascript" type="text/javascript"> function cacher(id_div) { <!-- c'est comme si je defini la fonction cacher avec en paramètre d'entrée(id_div) -->
-  $('#'+id_div).hide(); <!-- ici dans le corps de la fonction je met la formule de tel sorte à ce quelle soit 
- <!-- de la forme  $("#id_d_un_div"); pour lui indiquer ce qu'il faut faire avec le paramètre d'entrée id_div (ici je veux appliquer la fonction cacher ( avec .hide() )  (un peu comme
- <!--  en java où l'on defini la fonction avec ses paramètres d'entrée et dans le corps de la fonction je décris la façon dont les paramètes seront traités et ce que la fonction fera. -->)
-  }</script>
-  <script language="javascript" type="text/javascript"> function afficher(id_div) { <!-- même chose que précedement mais cette fois ci avec la fonction afficher-->
-  $('#'+id_div).show();
-  }</script>
-  <script language="javascript" type="text/javascript"> function alternatif(id_div) { <!-- j'ai appelé cette fonction alternatif ( par rapport au fait que je vais utiliser le bouton toggle).La fonction toggle() fonction de la
-manière suivante: quand mon élément est affiché, je peux l'effacer et quand il est afficher, je peux le cacher ( il remplace a la base les fonction cacher ( hide () ) et afficher  ( show () )  -->
-  $('#'+id_div).toggle();
-  }</script>
 	</head> <!--  l'UTF-8, qui permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe. -->
 	<body>
 		<h1>CV</h1>
 		<!-- <div id="titi">  <!-- la balise pour le lien interne doit toujours encadrer l'element auquel on veut que nous lien renvoi
-		<h2> coucou </h2>
+		<!-- <h2> coucou </h2> -->
 		</div>  <!--  comme on peut le voir elle s'arrete ici ; elle est de la forme       <div id="dernieres-nouvelles">...</div>          -->
 		<h2> Mikaël TABAR-NOVUAL <h2>
 		<h3> 90 rue Anatole France Résidence Andromaque <br> Appartement 408 <button style="font-size: 50%;">cacher</button><br>  <!-- on ajoute un bouton cacher ici via le bout de code ; il faut cependant l'inserer dans une ligne existante -->
@@ -74,8 +62,8 @@ manière suivante: quand mon élément est affiché, je peux l'effacer et quand 
 		<button style="font-size: 50%;" onclick="afficher('CS');">afficher</button>
 		<button style="font-size: 50%;" onclick="alternatif('CS');">alternatif</button>
 		
-		<!-- <p><b>Abandonnés et solitaires comme ils l'avaient, eux aussi, comme </b> <!--  pour avoir du texte en gras  on est placé ou en réunissant <br> <!-- permet de faire un retour à la ligne 
-		les divers détachements -->
+		<!-- <p><b>Abandonnés et solitaires comme ils l'avaient, eux aussi, comme </b> <!--  pour avoir du texte en gras  on est placé ou en réunissant <br> <!-- permet de faire un retour à la ligne -->
+		<!--les divers détachements -->
 	<div id="L"> 	
 <h2> LANGUES </h2>
 <p> Anglais (niveau bac)<br> Espagnol (niveau bac) 
