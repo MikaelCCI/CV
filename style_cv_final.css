@@ -1,0 +1,180 @@
+body {
+	 color:black;  font-size: 20px;
+}
+h1.titre_cv{
+	font-size: 90px;
+	font-style: italic;
+}
+
+img{
+	width: 190px;
+}
+img.maison{
+   width:20px;
+   height:20x;
+}
+img.permis{
+   width:30px;
+   height:30px;
+}
+h2.formation{
+	color:blue; 
+}
+p.texte1{
+	 font-style: italic; 
+}
+
+h2.experience_professionnelle{
+		color:yellow;
+}
+p.texte2{
+	 font-style: italic; 
+}
+
+h2.competences{
+		color: blue; 
+}
+p.texte3{
+	 font-style: italic; 
+}
+h2.competences_supplementaires{
+	 color:blue;
+}
+img.word{
+   width:80px;
+   height:80px;
+}
+img.excel{
+   width:80px;
+   height:80px;
+}
+img.ppt{
+   width:80px;
+   height:80px;
+}
+img.r{
+   width:80px;
+   height:80px;
+}
+img.matlab{
+   width:160px;
+   height:80px;
+}
+img.labview{
+   width:80px;
+   height:80px;
+}
+img.merise{
+   width:80px;
+   height:80px;
+}
+img.uml{
+   width:160px;
+   height:80px;
+}
+img.oracle{
+   width:80px;
+   height:80px;
+}
+img.sql{
+   width:80px;
+   height:80px;
+}
+img.linux{
+   width:80px;
+   height:80px;
+}
+img.c{
+   width:80px;
+   height:80px;
+}
+img.java{
+   width:80px;
+   height:80px;
+}
+img.javascript{
+   width:80px;
+   height:80px;
+}
+img.unix{
+   width:80px;
+   height:80px;
+}
+img.gnu{
+   width:80px;
+   height:80px;
+}
+img.debian{
+   width:160px;
+   height:80px;
+}
+img.ubuntu{
+   width:80px;
+   height:80px;
+}
+img.html5{
+   width:80px;
+   height:80px;
+}
+img.css3{
+    width:80px;
+   height:80px;
+}
+img.xml{
+   width:80px;
+   height:80px;
+}
+img.vrml{
+   width:160px;
+   height:80px;
+}
+img.iaas{
+   width:80px;
+   height:80px;
+}
+img.saas{
+   width:80px;
+   height:80px;
+}
+img.paas{
+   width:80px;
+   height:80px;
+}
+img.openstack{
+   width:160px;
+   height:80px;
+}
+img.sap{
+   width:80px;
+   height:80px;
+}
+img.creo_ptc{
+   width:160px;
+   height:80px;
+}
+p.texte4{
+	  font-style: italic; 
+}
+h2.langues{
+	color:blue; font-style: italic; 
+}
+img.anglais{
+   width:40px;
+   height:40px;
+}
+img.espagnol{
+   width:40px;
+   height:40px;
+}
+img.diplome{
+   width:40px;
+   height:40px;
+}
+img.exp_pro{
+   width:40px;
+   height:40px;
+}
+img.langues{
+   width:40px;
+   height:40px;
+}
